@@ -42,6 +42,11 @@ const employees = [
 
 console.log( employees );
 
+function employeesfunc(employParem) {
+  for (let i = 0; i < employParem.length; i++)
+  console.log('inside the employfun', employParem[i]);
+  
+}
 
 
-
+employeesfunc(employees)
