@@ -42,11 +42,18 @@ const employees = [
 
 console.log( employees );
 
+
 function employeesfunc(employParem) {
+  // loop through employees 
   for (let i = 0; i < employParem.length; i++)
+  // console.log() the result. 
   console.log('inside the employfun', employParem[i]);
-  
 }
 
-
+//  pass employee object into a function.
 employeesfunc(employees)
+
+
+function bonusfunc() {
+  
+}
